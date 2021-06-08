@@ -1,0 +1,146 @@
+/*css reset*/
+				html, body, div, span, applet, object, iframe,
+				h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+				a, abbr, acronym, address, big, cite, code,
+				del, dfn, em, img, ins, kbd, q, s, samp,
+				small, strike, strong, sub, sup, tt, var,
+				b, u, i, center,
+				dl, dt, dd, ol, ul, li,
+				fieldset, form, label, legend,
+				table, caption, tbody, tfoot, thead, tr, th, td,
+				article, aside, canvas, details, embed, 
+				figure, figcaption, footer, header, hgroup, 
+				menu, nav, output, ruby, section, summary,
+				time, mark, audio, video {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline;
+				}
+				/* HTML5 display-role reset for older browsers */
+				article, aside, details, figcaption, figure, 
+				footer, header, hgroup, menu, nav, section {
+					display: block;
+				}
+				body {
+					line-height: 1;
+				}
+				ol, ul {
+					list-style: none;
+				}
+				blockquote, q {
+					quotes: none;
+				}
+				blockquote:before, blockquote:after,
+				q:before, q:after {
+					content: '';
+					content: none;
+				}
+				table {
+					border-collapse: collapse;
+					border-spacing: 0;
+				}	
+/*.float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float ..float .	*/				
+	div{
+		outline: 1px solid #40404080;
+	}	
+
+	.float .container{
+    	width:600px;
+		margin: 0 auto;
+
+	}
+	.float .one,
+	.float .two,
+	.float .three,
+	.float .four{
+		height: 200px;
+		font-size: 0;
+	}
+/*one section	*/
+
+	.float .one div{
+		width: 200px;
+		height: 200px;
+		float: left;
+	}	
+	.float .clearfix::after {
+		content:"";
+		clear: left;
+		display: block;
+	}
+/*two section	*/
+	.float .t_one{
+	   width: 400px;
+		height: 200px;
+		float: left;
+	}
+	.float .t_one div{
+		height:100px;
+	}
+	.float .t_two{
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	.float .t_two div{
+		height: 66.float .6666667px;
+	}
+/*three section*/
+	.float .th_one{
+		width: 200px;
+		height: 200px;
+		float: left;
+	}
+	.float .th_two{
+		width: 400px;
+		height: 200px;
+		float: left;
+	}
+	.float .th_t_one,
+	.float .th_t_two{
+		height:100px;
+		font-size: 0;
+	}
+	.float .th_t_two div{
+		width: 200px;
+		height: 100px;
+		font-size: 2px; 
+		display: inline-block;
+	}
+/*four section*/	
+	.float .f_one{
+		height: 200px;
+		font-size: 2px; 
+		display: inline-block;
+	}
+	.float .f_two{
+		width: 200px;
+		height: 200px;
+		font-size: 2px; 
+		display: inline-block;
+	}
+	.float .f_one_one,
+	.float .f_one_two{
+		height:100px;  
+	}
+	.float .f_one_two_one,
+	.float .f_one_two_two{
+		width:200px;
+		height:100px;
+		float: left;
+	}
+	.float .f_one_two_one_one,
+	.float .f_one_two_one_two{
+		height:50px;
+	}
+	.float .f_one_two_one_two div{
+		width:100px;
+		height:50px;
+        float: left;
+	}
+
+	
+	

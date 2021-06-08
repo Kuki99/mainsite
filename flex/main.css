@@ -1,0 +1,128 @@
+   /*{css reset}*/
+				html, body, div, span, applet, object, iframe,
+				h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+				a, abbr, acronym, address, big, cite, code,
+				del, dfn, em, img, ins, kbd, q, s, samp,
+				small, strike, strong, sub, sup, tt, var,
+				b, u, i, center,
+				dl, dt, dd, ol, ul, li,
+				fieldset, form, label, legend,
+				table, caption, tbody, tfoot, thead, tr, th, td,
+				article, aside, canvas, details, embed, 
+				figure, figcaption, footer, header, hgroup, 
+				menu, nav, output, ruby, section, summary,
+				time, mark, audio, video {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline;
+				}
+				/* HTML5 display-role reset for older browsers */
+				article, aside, details, figcaption, figure, 
+				footer, header, hgroup, menu, nav, section {
+					display: block;
+				}
+				body {
+					line-height: 1;
+				}
+				ol, ul {
+					list-style: none;
+				}
+				blockquote, q {
+					quotes: none;
+				}
+				blockquote:before, blockquote:after,
+				q:before, q:after {
+					content: '';
+					content: none;
+				}
+				table {
+					border-collapse: collapse;
+					border-spacing: 0;
+				}	
+/*##########################################	*/
+	div{
+		outline: 1px solid #40404080;
+	}	
+	.flex .container{
+    	width:600px;
+		margin: 0 auto;
+	}
+	.flex .one,
+	.flex .two,
+	.flex .three,
+	.flex .four{
+		height: 200px;
+		display: flex;
+	}
+/*one section	*/
+	.flex .one div{
+		flex: 0 0 200px;
+		height: 200px;
+	}	
+/*two section	*/
+	.flex .t_one{
+	   flex: 0 0 400px;
+		height: 200px;
+	}
+	.flex .t_one div{
+		height:100px;
+	}
+	.flex .t_two{
+		flex: 0 0 200px;
+		height: 200px;
+	}
+	.flex .t_two div{
+		height: 66.flex .6666667px;
+	}
+/*three section*/
+ 
+	.flex .th_one{
+		flex: 0 0 200px;
+		height: 200px;
+	}
+	.flex .th_two{
+		flex: 0 0 400px;
+		height: 200px;
+	}
+	   .flex .th_t_one,
+	   .flex .th_t_two{
+		height:100px;
+		display: flex;
+
+	}
+	   .flex .th_t_two div{
+		flex: 0 0 200px;
+		height: 100px;
+	}
+/*four section*/
+	.flex .f_one{
+		flex: 0 0 400px;
+	}
+	.flex .f_two{
+		flex: 0 0 200px;
+		height: 200px;
+	}
+	 .flex .f_one_one,
+	.flex .f_one_two{
+		height:100px;
+		display: flex;
+	}
+	.flex .f_one_two_one,
+	.flex .f_one_two_two{
+		flex: 0 0 200px;
+		height:100px;
+	}
+	.flex .f_one_two_one_one,
+	.flex .f_one_two_one_two{
+		height:50px;
+		display: flex;
+	}
+	.flex .f_one_two_one_two div{
+		flex: 0 0 100px;
+		height:50px;
+	}
+
+	

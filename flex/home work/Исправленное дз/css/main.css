@@ -1,0 +1,228 @@
+/*css reset*/
+				html, body, div, span, applet, object, iframe,
+				h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+				a, abbr, acronym, address, big, cite, code,
+				del, dfn, em, img, ins, kbd, q, s, samp,
+				small, strike, strong, sub, sup, tt, var,
+				b, u, i, center,
+				dl, dt, dd, ol, ul, li,
+				fieldset, form, label, legend,
+				table, caption, tbody, tfoot, thead, tr, th, td,
+				article, aside, canvas, details, embed, 
+				figure, figcaption, footer, header, hgroup, 
+				menu, nav, output, ruby, section, summary,
+				time, mark, audio, video {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline;
+				}
+				/* HTML5 display-role reset for older browsers */
+				article, aside, details, figcaption, figure, 
+				footer, header, hgroup, menu, nav, section {
+					display: block;
+				}
+				body {
+					line-height: 1;
+				}
+				ol, ul {
+					list-style: none;
+				}
+				blockquote, q {
+					quotes: none;
+				}
+				blockquote:before, blockquote:after,
+				q:before, q:after {
+					content: '';
+					content: none;
+				}
+				table {
+					border-collapse: collapse;
+					border-spacing: 0;
+				}		
+	div{
+		outline: 2px solid red;
+	}	
+	.container{
+        width:600px;
+        height: 800px;
+        margin: 10px 10px;
+	}
+	#one,
+	#two,
+	#three,
+	#four{
+		width: 600px;
+		height: 200px;
+	}
+/*one section	*/
+	#one.in_b{
+        font-size: 0;
+	}
+	#one div{
+		width: 200px;
+		height: 200px;
+	}	
+	#one.in_b div{
+		display: inline-block; 
+		font-size: 2px;
+	}
+	#one.t_cell div{
+		display: table-cell;
+	}
+/*two section	*/
+    #two.in_b{
+        font-size: 0;
+	}
+	#t_one{
+	   /* width: 400px;*/
+		height: 200px;
+	}
+	#t_one.in_b {
+		display: inline-block;
+		font-size: 2px;
+	}
+	#t_one.t_cell {
+		display: table-cell;
+	}
+	#t_one div{
+		width:400px;
+		height:100px;
+	}
+	
+	#t_two{
+		width: 200px;
+		height: 200px;
+	}
+	#t_two.in_b{
+		display: inline-block; 
+		font-size: 2px; 
+	}
+	#t_two.t_cell{
+		display: table-cell;
+	}
+	#t_two div{
+		/*width: 200px;*/
+		height: 66.6666667px;
+	}
+/*three section*/
+    #three.in_b{
+    	font-size:0; 
+    }
+	#th_one{
+		width: 200px;
+		height: 200px;
+	}
+	#th_one.in_b{
+		display: inline-block;
+		font-size: 2px;
+	}
+	#th_one.t_cell{
+		display: table-cell;
+	}
+	#th_two{
+		/*width: 400px;*/
+		height: 200px;
+	}
+	#th_two.in_b{
+		font-size: 2px; 
+		display: inline-block;
+	}
+	#th_two.t_cell{
+		display: table-cell;
+	}
+	#th_t_one,
+	#th_t_two{
+	    /*width:400px;*/
+		height:100px;
+	}
+	#th_t_one.in_b,
+	#th_t_two.in_b{
+	    font-size: 0;	
+	}
+	#th_t_two div{
+		width: 200px;
+		height: 100px;
+	}
+	#th_t_two.in_b div{
+		font-size: 2px; 
+		display: inline-block;
+	}
+	#th_t_two.t_cell div{
+		display: table-cell;
+
+	}
+/*four section*/	
+	#four.in_b{
+		font-size: 0; 
+	}
+	#f_one{
+		width: 400px;
+		height: 200px;
+	}
+    #f_one.in_b{
+		font-size: 2px; 
+		display: inline-block;
+	}
+	#f_one.t_cell{
+		display: table-cell;
+	}
+	#f_two{
+		width: 200px;
+		height: 200px;
+	}
+	#f_two.in_b{
+		font-size: 2px; 
+		display: inline-block;
+	}
+	#f_two.t_cell{
+		display: table-cell;
+	}
+	#f_one_one,
+	#f_one_two{
+	   /* width:400px;*/
+		height:100px;
+	}
+	#f_one_one.in_b,
+	#f_one_two.in_b{
+	    font-size: 0;	
+	}
+	#f_one_two_one,
+	#f_one_two_two{
+		width:200px;
+		height:100px;
+	}
+	#f_one_two_one.in_b,
+	#f_one_two_two.in_b{
+		display: inline-block;
+		font-size: 2px;
+	}
+	#f_one_two_one.t_cell,
+	#f_one_two_two.t_cell{
+		display: table-cell;
+	}
+	#f_one_two_one_one,
+	#f_one_two_one_two{
+		/*width:200px;*/
+		height:50px;
+	}
+	#f_one_two_one_one.in_b,
+	#f_one_two_one_two.in_b{
+		font-size: 0;
+
+	}
+	#f_one_two_one_two div{
+		width:100px;
+		height:50px;
+	}
+	#f_one_two_one_two.in_b div{
+	    display: inline-block;
+		font-size: 2px;
+	}
+	#f_one_two_one_two.t_cell div{
+	    display: table-cell;
+	}
+	
+	
